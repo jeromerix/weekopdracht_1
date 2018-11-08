@@ -1,0 +1,198 @@
+body{
+    margin:auto;
+    background-image: url("Backgrounds.jpg");
+    background-repeat: no-repeat, repeat;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 300;	
+}
+/* ----------Header en menu ------*/    
+header{
+    background-image:url(stukjemenu.gif);
+    background:
+	background: #1E90FF;
+          }
+.menu{
+    width: 40%;
+	margin: 0 auto;
+}
+header::after{
+	content:'';
+	display: table;
+	clear: both;
+	
+}
+
+nav{ float: right;
+}
+nav ul{
+	margin: 10;
+	padding 0;
+	list-style: none;
+}
+nav li{
+	display: inline-block;
+	margin-left: 70px;
+	padding-top: 25px;
+	position: relative;
+}
+nav a{
+	color: #444;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+
+nav a:hover{
+	color:#000;
+}
+nav a::before{
+	content:'';
+	display: block;
+    height: 5px;
+    width 100%;
+    background-color: #444;
+    position: absolute;
+    top: 0;
+    width: 0%;
+    text-align: left;
+    transition all ease-in-out 250ms;
+}
+nav a:hover::before{
+    width: 100%;
+    
+}
+.logo{
+    float: left;
+    padding: 1px 0;
+    margin-left: 10px;
+
+}
+.active {
+    background-color: 	#A9E2F3;
+}
+/* ----------sectie links ------*/    
+   
+section {
+    float: left;
+    width: 45%;
+    color: white;
+    margin: 50px;
+}
+/* ----------over mij artikel ------*/    
+
+.overmij{
+    padding-top: 5px;
+    width: 320px;
+    padding-right: 5px;
+    margin-left: 390px;
+    background-color: rgba(0, 0, 255, 0.1);
+}
+.overmij p{
+    display: inline-block;
+}
+/* ----------mijnfoto ------*/
+.links img{
+    margin-top: -250px;
+    margin-left: 220px;
+    border: 1px solid black;
+}
+/*--------------activatieknop-----------*/
+.button2{
+    margin-top: 5px;
+    margin-left: 840px;
+    width: 50px;
+    
+}
+/* ----------index div in de section ------*/
+.tekstvlak1 {
+    margin-top: 100px;
+    margin-left: 350px;
+    color: white;
+    max-width: 500px;
+    
+}
+/* ----------BUTTON MAINPAGE ------*/
+
+.button {
+    background-color: #555555;
+    display: block;
+    width: 115px;
+    height: 25px;
+    background: #4E9CAF;
+    padding: 9px;
+    text-align: center;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+.button:hover{
+    background-color:aqua;
+}
+/* ----------rechterblock pagina ------*/
+aside {
+    color: white;
+    background-color: rgba(0, 0, 255, 0.1);
+    float: right;
+    width: 25%;
+    margin: 53px;
+    margin-right: 310px;
+    }
+/* ----------form contact h1 ------*/
+.cnt{
+    margin: 120px;
+    margin-left: 600px;
+    margin-right: auto;
+    width: 420px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    padding-top: 1px;
+    border: 2px solid black
+        
+
+}
+/* ----------form contact h1 ------*/
+input[type="submit"]{
+    background-color: #008CBA; /* blue */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+input[type="name"]{
+    width: 50px;
+}
+
+
+/* ----------portfolio opmaak ------*/
+.portfoli{
+    max-width: 600px;
+    margin-top: 0px;
+    margin-left: 50px;
+    border: 1px solid black;
+    border-radius: 25px;
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 0, 255, 0.1);
+}
+/* ----------footer ------*/
+footer {
+    clear: both;
+    margin-bottom: 0;
+    position: absolute;
+    margin-top: 310px;
+    width: 100%;
+    background-image: url("testfooter.gif");
+    background:
+    background: #1E90FF;
+    text-align: center;
+    color: black;
+    font-size: 12px;
+    bottom: 0;
+}

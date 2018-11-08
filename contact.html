@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      <link rel="stylesheet" type="text/css" href="css1.css">
+      <title>mijn portfolio</title>
+  </head>
+  <body>
+    
+    <!-- source: https://learn.shayhowe.com/html-css/positioning-content/ -->
+
+    <header>
+      <div class="menu">
+	<nav>
+		<ul>
+			<li><a href="index1.html">portfolio</a></li>
+			<li><a href="projecten1.html">Projecten</a></li>
+			<li><a href="overmij.html">over mij</a></li>
+            <li class ="active"><a href="contact.html">contact</a></li>
+        </ul>
+	</nav>
+	</div>
+	<div class = "logo">
+<img src="logo.png" alt="logo">
+    </div>
+    </header>
+      <section class="cnt">
+    <h1>Contact</h1><p>Hier kan je contact met me opnemen.</p><form id="contact-form" method="post" action="">
+        <input name="name" type="text" class="form-control" placeholder="Naam" required>
+        <br />
+        <input name="email" type="email" class="form-control" placeholder="Email" row="4" required><br />
+        <textarea placeholder="Bericht" type="text" name="url" tabindex="4"></textarea><br />
+        <input type="submit" class="form-control submit" value="verstuur" onclick="return foo();"/></form></section>
+    
+    <footer>
+      <p>Portfolio website Jerome © 2018-2019</p>
+    </footer>
+<script src="javascriptpage.js"></script> 
+  </body>
+</html>
