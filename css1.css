@@ -1,15 +1,16 @@
 body{
     margin:auto;
-    background-image: url("Backgrounds.jpg");
-    background-repeat: no-repeat, repeat;
+    background:url("Backgrounds.jpg");
+    background-size: cover;
 	font-family: 'Work Sans', sans-serif;
-	font-weight: 300;	
+	font-weight: 300;
 }
 /* ----------Header en menu ------*/    
 header{
-    background-image:url(stukjemenu.gif);
-    background:
-	background: #1E90FF;
+    background:url(stukjemenu.gif) no-repeat;
+    background-size: cover;
+    
+	
           }
 .menu{
     width: 40%;
@@ -77,6 +78,7 @@ section {
     width: 45%;
     color: white;
     margin: 50px;
+    
 }
 /* ----------over mij artikel ------*/    
 
@@ -98,15 +100,15 @@ section {
 }
 /*--------------activatieknop-----------*/
 .button2{
-    margin-top: -80px;
-    margin-left: 840px;
+    margin-top: -60px;
+    margin-left: 833px;
     width: 200px;
     background-color: rgba(0, 0, 255, 0.1);
     
 }
 /*-----------LOGOs programmas overmij--------*/
 #logob{
-    margin-left: 600px;
+    margin-left: 850px;
     display: none;
 }
 #logob img{
@@ -177,8 +179,8 @@ input[type="submit"]{
     cursor: pointer;
     border-radius: 12px;
 }
-input[type="name"]{
-    width: 50px;
+input:hover[type="submit"]{
+    background-color: aqua;
 }
 
 
@@ -192,21 +194,6 @@ input[type="name"]{
     color: white;
     text-align: center;
     background-color: rgba(0, 0, 255, 0.1);
-}
-/* ----------footer ------*/
-footer {
-    clear: both;
-    margin-bottom: 0;
-    position: absolute;
-    margin-top: 310px;
-    width: 100%;
-    background-image: url("testfooter.gif");
-    background:
-    background: #1E90FF;
-    text-align: center;
-    color: black;
-    font-size: 12px;
-    bottom: 0;
 }
 /*----------------projecten display----------------*/
 
@@ -288,9 +275,133 @@ footer {
     text-decoration: none;
     cursor: pointer;
 }
+/* ----------footer ------*/
+footer {
+    clear: both;
+    margin-bottom: 0;
+    position: absolute;
+    margin-top: 310px;
+    width: 100%;
+    background:url("testfooter.gif")no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: black;
+    font-size: 12px;
+    bottom: 0;
+}
 
 /* 100% Image Width on Smaller Screens */
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 1550px){
     .modal-content {
         width: 100%;
     }
+    
+    /*---------media query 700px footer ------ */
+    
+footer {
+    position: fixed;
+    margin: auto;
+    width: 100%;
+    background-image: url("testfooter.gif");
+    background:
+    background: #1E90FF;
+    text-align: center;
+    color: black;
+    font-size: 12px;
+}
+    /*-------------media query 700px header -------*/
+
+header{
+	background: #1E90FF;
+}
+.menu{
+    width: auto;
+	margin: 0 auto;
+}
+.logo img{
+    float: left;
+    padding: 1px 0;
+    margin-left: 10px;
+    width: 100px;
+}
+    
+    /*-----------textvlakintro--------------------*/
+.tekstvlak1 {
+    margin-top: auto;
+    color: white;
+    max-width: auto;
+    margin-right: auto;
+    margin-left: auto;
+    }
+    
+/*------------------over mij pagina-------------------*/
+.links img{
+    margin-top: auto;
+    margin-left: auto;
+    border: 1px solid black;
+    float: top;
+}
+    
+.overmij{
+    padding-top: 5px;
+    width: auto;
+    padding-right: 5px;
+    margin-left: auto;
+    background-color: rgba(0, 0, 255, 0.1);
+}
+.overmij p{
+    display: inline-block;
+}
+
+/*--------------activatieknop-----------*/
+.button2{
+    margin-top: auto;
+    margin-left: auto;
+    width: auto;
+    background-color: rgba(0, 0, 255, 0.1);
+    
+}
+/*-----------LOGOs programmas overmij--------*/
+#logob{
+    margin-left: auto;
+    display: none;
+}
+#logob img{
+    width: 350px;
+}
+/* ----------response asude vaardigheden ------*/
+  aside{
+      display: none;
+    }
+    
+/* ----------form contact h1 ------*/
+.cnt{
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: auto;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    padding-top: 1px;
+    border: 2px solid black
+        
+
+}
+/* ----------form contact h1 ------*/
+input[type="submit"]{
+    background-color: #008CBA; /* blue */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+input:hover[type="submit"]{
+    background-color: aqua;
+}

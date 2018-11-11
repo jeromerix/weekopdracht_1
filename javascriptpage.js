@@ -1,7 +1,9 @@
+/*----------overmij skills functie ------------*/
+
 function myfunction() {
     //id checkbox    
     var checkBox= document.getElementById("checkb");
-    //id waar je iets mee wilt doen
+    //id die iets uitvoert
     var imgA    = document.getElementById("logob");
    
  
@@ -12,10 +14,10 @@ function myfunction() {
     imgA.style.display = "none";
   }
 }
-/* contact verstuur button */
+/* contact melding verstuurd */
 /*function foo() {
    alert("Email verstuurd!");
-   return true;
-}*/
+   return true;*/
+}
 
 /*klik en verberg functie*/
