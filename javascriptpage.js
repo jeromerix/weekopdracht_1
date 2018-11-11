@@ -14,10 +14,4 @@ function myfunction() {
     imgA.style.display = "none";
   }
 }
-/* contact melding verstuurd */
-/*function foo() {
-   alert("Email verstuurd!");
-   return true;*/
-}
 
-/*klik en verberg functie*/
